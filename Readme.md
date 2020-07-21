@@ -17,19 +17,20 @@ Hello, World!
 
 # Overview
 Below is the project's file structure, with short descriptions for each file.
-
+```
 Example Python JIT C Module
 ├── Readme.md
 │     This file. Describes project and use.
-├── src
+├── src/
 │   ├── Makefile
 │   │     Unnecessary for this project.
-│   │     Can be used to independently compile the module and verify that
-│   │     compilation and use works separately from the python example
+│   │     Can be used to independently compile the module and veri that
+│   │     compilation and use works separately from the pyth example/
 │   └── mymodule.c
 │         The source code defining the Python C module.
-│         Requires no additional generation of code or modification for it to
+│         Requires no additional generation of code or modificati for it to
 │         compile or be loaded as a Python module
 └── test.py
-      Script demonstrating how to compile the C source for a Python module and
+      Script demonstrating how to compile the C source for a Pyth module and
       load it into the Python interpreter at run-time.
+```
